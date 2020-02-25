@@ -1,0 +1,76 @@
+
+body{
+    background-color: rgba(241, 236, 236, 0.521);
+}
+
+#toggleMenu {
+    width: 60px;
+    height: 60px;
+    /* background-color: lightpink; */
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    cursor: pointer;
+}
+
+#menu {
+    /*background-color: blanchedalmond;*/
+    width: 250px;
+    height: 100%;
+    position: relative;;
+    left: 0;
+    
+        
+   }
+
+.colormenu {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    border : 1px;      
+}
+
+.show{
+    display: block; 
+}
+
+#menu ul li {
+    /* background-color: black; */
+    
+    line-height: 60px;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+.green {
+    width:100%;
+    background-color: rgb(39, 230, 64);
+    border: 2px solid rgb(102, 93, 93);
+
+}
+.blue {
+    width:100%;
+    background-color: rgb(25, 22, 218);
+    border: 2px solid rgb(102, 93, 93);
+}
+.red {
+    width:100%;
+    background-color: rgb(235, 27, 44);
+    border: 2px solid rgb(102, 93, 93);
+
+}
+.yellow {
+    width:100%;
+    background-color: rgb(238, 223, 17);
+    border: 2px solid rgb(102, 93, 93);
+
+}
+
